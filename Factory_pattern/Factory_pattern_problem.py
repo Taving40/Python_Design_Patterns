@@ -1,5 +1,5 @@
 from __future__ import annotations
-from abc import ABC #abstract base class (deriving from this results in an abstract class)
+from abc import ABC, abstractmethod #abstract base class (deriving from this results in an abstract class)
 from random import randrange
 
 """This pattern is useful when instantiating objects (so generally always useful) 
@@ -8,8 +8,12 @@ Note: especially useful when you need to do some logic to instantiate an object 
 when you want to switch the way you instantiate objects at run-time (polymorphism)"""
 
 class IAnimal(ABC):
+
+    @abstractmethod
     def sound(self):
         pass
+
+    @abstractmethod
     def __str__(self) -> str:
         pass
 
@@ -37,7 +41,7 @@ def main():
         warm_household.append(Dog())
 
     print(list(map(str,warm_household)).count("dog"), "dogs")
-    print(list(map(str,warm_household)).count("cat"), "cats \n\n\n")
+    print(list(map(str,warm_household)).count("cat"), "cats \n")
         
 
     """Let's say we wish to instantiate a random number of cats and the same number of dogs."""
@@ -47,7 +51,7 @@ def main():
         warm_household.append(Dog())
     
     print(list(map(str,warm_household)).count("dog"), "dogs")
-    print(list(map(str,warm_household)).count("cat"), "cats \n\n\n")
+    print(list(map(str,warm_household)).count("cat"), "cats \n")
 
     """Let's say we wish to instantiate a random number of all cats OR all dogs (randomly choosing between one or the other)"""
     warm_husehold = []
@@ -60,7 +64,7 @@ def main():
             warm_husehold.append(Cat())
 
     print(list(map(str,warm_household)).count("dog"), "dogs")
-    print(list(map(str,warm_household)).count("cat"), "cats \n\n\n")
+    print(list(map(str,warm_household)).count("cat"), "cats \n")
 
     """We quickly see that there are multiple ways we might wish to instantiate the objects.
     We will also quite likely like to repeat those ways of instantiating them.

@@ -1,11 +1,14 @@
-# Naming conventions: 
+# Naming conventions
+
 * class starting with "I" - interface (does not have implementations, cannot be instantiated)
 * class starting with "A" - abstract (may have implementations, cannot be instantiated)
 * class starting with "Concrete" - instantiable class derived from abstract class or interface
 
-# TODO: 
+## TODO
+
 * format this so it looks nice
+* provide a small summary of each pattern
 
-Note: difference between interfaces and abstract classes
+## Resources
 
-Example ideas taken from Head First: Design Patterns and Christopher Okhravi's youtube series: Design Patterns (link https://www.youtube.com/playlist?list=PLrhzvIcii6GNjpARdnO4ueTUAVR9eMBpc)
+Example ideas taken from Head First: Design Patterns and Christopher Okhravi's youtube series: Design Patterns (link <https://www.youtube.com/playlist?list=PLrhzvIcii6GNjpARdnO4ueTUAVR9eMBpc>)

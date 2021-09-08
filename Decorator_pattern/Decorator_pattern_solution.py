@@ -1,5 +1,5 @@
 from __future__ import annotations
-from abc import ABC #abstract base class (deriving from this results in an abstract class)
+from abc import ABC, abstractmethod #abstract base class (deriving from this results in an abstract class)
 
 """The solution is to seperate the base classes (Decaf and Esspreso) 
 from their expanded features (added topings) 
@@ -22,8 +22,9 @@ class ABeverage(ABC):
     def setDescription(self, new_desc):
         self.description = new_desc
 
+    @abstractmethod
     def cost(self):
-        return 0
+        pass
 
 class Decaf(ABeverage):
     def __init__(self, desc) -> None:
@@ -50,8 +51,9 @@ class AAddonDecorator(ABeverage, ABC):
     def getDescription(self):
         return self.beverage.getDescription() + self.description
 
+    @abstractmethod
     def cost(self):
-        return self.beverage.cost() 
+        pass 
 
 class CaramelDecorator(AAddonDecorator):
     """Decorator for a beverage that should have some caramel added"""

@@ -1,5 +1,5 @@
 from __future__ import annotations
-from abc import ABC #abstract base class (deriving from this results in an abstract class)
+from abc import ABC, abstractmethod #abstract base class (deriving from this results in an abstract class)
 from random import randrange
 
 """The Solution, when you might need to reuse certain instantiating strategies 
@@ -8,6 +8,7 @@ is to let the Factory class (that has methods which return objects) handle it. "
 
 
 class IAnimal(ABC):
+    @abstractmethod
     def sound(self):
         pass
 
@@ -25,6 +26,7 @@ class Duck(IAnimal):
 
 class IAnimalFactory(ABC):
     """The Factory class should have responsibility of HOW the objects get constructed"""
+    @abstractmethod
     def createAnimal(self):
         """Method that should return an animal"""
         pass

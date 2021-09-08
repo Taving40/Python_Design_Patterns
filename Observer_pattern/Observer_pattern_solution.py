@@ -30,8 +30,6 @@ class IObservable(ABC):
 
 class IObserver(ABC): 
     """Interface for Observer type classes"""
-    def __init__(self) -> None:
-        pass
     
     @abstractmethod
     def update(self):
