@@ -4,9 +4,7 @@
 * class starting with "Concrete" - instantiable class derived from abstract class or interface
 
 # TODO: 
-* separate the Problem and Solution parts of each script into 2 separate scripts and move them in a directory
 * format this so it looks nice
-* format comms, finish decorator Solution
 
 Note: difference between interfaces and abstract classes
 
