@@ -16,6 +16,8 @@
 
 * [Abstract Factory pattern](https://github.com/Taving40/Python_Design_Patterns/tree/main/Abstract_Factory_pattern): This pattern provides an interface for creating **FAMILIES OF DEPENDENT OR RELATED OBJECTS**, without specifying their concrete classes. (basically the abstract factory pattern is a set of Factory Methods)
 
+* [Singleton pattern](https://github.com/Taving40/Python_Design_Patterns/tree/main/Singleton_pattern): This pattern ensures a class has **only one instace** and provides a global point of access to it. ([critique](https://www.youtube.com/watch?v=-FRm3VPhseI), as I understand it: you should avoid globals and if your app is growing, you might wish to have multiple instances of what you initially thought would only ever be a single thing)
+
 ## Resources
 
 Example ideas taken from Head First: Design Patterns and Christopher Okhravi's youtube series: [Design Patterns](https://www.youtube.com/playlist?list=PLrhzvIcii6GNjpARdnO4ueTUAVR9eMBpc)
