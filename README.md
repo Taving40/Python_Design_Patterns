@@ -18,4 +18,4 @@
 
 ## Resources
 
-Example ideas taken from Head First: Design Patterns and Christopher Okhravi's youtube series: Design Patterns (link <https://www.youtube.com/playlist?list=PLrhzvIcii6GNjpARdnO4ueTUAVR9eMBpc>)
+Example ideas taken from Head First: Design Patterns and Christopher Okhravi's youtube series: [Design Patterns](https://www.youtube.com/playlist?list=PLrhzvIcii6GNjpARdnO4ueTUAVR9eMBpc)
