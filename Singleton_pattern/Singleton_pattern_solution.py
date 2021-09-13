@@ -11,7 +11,7 @@ class Singleton:
         if Singleton.__instance != None:
             raise Exception("Cannot call constructor, an instance already exists")
         else:
-            Singleton.__instance = self
+            Singleton.__instance = self    
 
     @staticmethod
     def getInstance() -> Singleton:

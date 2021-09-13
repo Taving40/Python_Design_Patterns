@@ -18,6 +18,8 @@
 
 * [Singleton pattern](https://github.com/Taving40/Python_Design_Patterns/tree/main/Singleton_pattern): This pattern ensures a class has **only one instace** and provides a global point of access to it. ([critique](https://www.youtube.com/watch?v=-FRm3VPhseI), as I understand it: you should avoid globals and if your app is growing, you might wish to have multiple instances of what you initially thought would only ever be a single thing)
 
+* [Command pattern](https://github.com/Taving40/Python_Design_Patterns/tree/main/Command_pattern): This pattern encapsulates a request as an object thereby letting you parameterize other objects with different requests and support undoable operations.
+
 ## Resources
 
 Example ideas taken from Head First: Design Patterns and Christopher Okhravi's youtube series: [Design Patterns](https://www.youtube.com/playlist?list=PLrhzvIcii6GNjpARdnO4ueTUAVR9eMBpc)
