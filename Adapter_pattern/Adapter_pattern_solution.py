@@ -49,6 +49,8 @@ def main():
 
     adaptee = Adaptee()
     adapter = Adapter(adaptee)
+    print(type(adapter.__class__)) 
+    """notice that this can be (and that's the main point of the pattern) treated as ITarget through polymorphism"""
     adapter.request()
 
 if __name__ == '__main__':
