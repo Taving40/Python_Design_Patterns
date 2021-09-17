@@ -3,6 +3,7 @@
 * class starting with "I" - interface (does not have implementations, cannot be instantiated)
 * class starting with "A" - abstract (may have implementations, cannot be instantiated)
 * class starting with "Concrete" - instantiable class derived from abstract class or interface
+* client - piece of code (usually encapsulated) that will make use of another class (it's being "serviced" by it). 
 
 ## Summary
 
@@ -19,6 +20,8 @@
 * [Singleton pattern](https://github.com/Taving40/Python_Design_Patterns/tree/main/Singleton_pattern): This pattern ensures a class has **only one instace** and provides a global point of access to it. ([critique](https://www.youtube.com/watch?v=-FRm3VPhseI), as I understand it: you should avoid globals and if your app is growing, you might wish to have multiple instances of what you initially thought would only ever be a single thing)
 
 * [Command pattern](https://github.com/Taving40/Python_Design_Patterns/tree/main/Command_pattern): This pattern encapsulates a request as an object thereby letting you parameterize other objects with different requests and support undoable operations.
+
+* [Adapter pattern](https://github.com/Taving40/Python_Design_Patterns/tree/main/Adapter_pattern): This pattern converts the interface of a class into another interface that clients expect. Adapter let's classes work together that couldn't otherwise because of incompatible interfaces.
 
 ## Resources
 
