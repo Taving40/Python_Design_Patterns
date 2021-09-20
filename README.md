@@ -23,6 +23,8 @@
 
 * [Adapter pattern](https://github.com/Taving40/Python_Design_Patterns/tree/main/Adapter_pattern): This pattern converts the interface of a class into another interface that clients expect. Adapter let's classes work together that couldn't otherwise because of incompatible interfaces.
 
+* [Facade pattern](https://github.com/Taving40/Python_Design_Patterns/tree/main/Facade_pattern): This pattern provides a unified interface to a set of interfaces in a subsystem. Facade defines a higher level interface that makes the subsystem easier to use.
+
 ## Resources
 
 Example ideas taken from Head First: Design Patterns and Christopher Okhravi's youtube series: [Design Patterns](https://www.youtube.com/playlist?list=PLrhzvIcii6GNjpARdnO4ueTUAVR9eMBpc)
