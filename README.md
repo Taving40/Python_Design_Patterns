@@ -3,11 +3,11 @@
 * class starting with "I" - interface (does not have implementations, cannot be instantiated)
 * class starting with "A" - abstract (may have implementations, cannot be instantiated)
 * class starting with "Concrete" - instantiable class derived from abstract class or interface
-* client - piece of code (usually encapsulated) that will make use of another class (it's being "serviced" by it). 
+* client - piece of code (usually encapsulated) that will make use of another class (it's being "serviced" by it).
 
 ## Summary
 
-* [Strategy pattern](https://github.com/Taving40/Python_Design_Patterns/tree/main/Strategy_pattern): This pattern defines a family of algorithms, encapsulates each one and makes them **INTERCHANGEABLE**. "Strategy" let's the algorithm vary independently from "clients" (other classes which need a form of that algorithm) that use it. 
+* [Strategy pattern](https://github.com/Taving40/Python_Design_Patterns/tree/main/Strategy_pattern): This pattern defines a family of algorithms, encapsulates each one and makes them **INTERCHANGEABLE**. "Strategy" let's the algorithm vary independently from "clients" (other classes which need a form of that algorithm) that use it.
 
 * [Observer pattern](https://github.com/Taving40/Python_Design_Patterns/tree/main/Observer_pattern): This pattern defines a **One-to-Many dependency between objects**, so that when one object changes state, all of its dependencies are notified and updated automatically.
 
@@ -24,6 +24,8 @@
 * [Adapter pattern](https://github.com/Taving40/Python_Design_Patterns/tree/main/Adapter_pattern): This pattern converts the interface of a class into another interface that clients expect. Adapter let's classes work together that couldn't otherwise because of incompatible interfaces.
 
 * [Facade pattern](https://github.com/Taving40/Python_Design_Patterns/tree/main/Facade_pattern): This pattern provides a unified interface to a set of interfaces in a subsystem. Facade defines a higher level interface that makes the subsystem easier to use.
+
+* [Proxy pattern](https://github.com/Taving40/Python_Design_Patterns/tree/main/Proxy_pattern): This pattern provides a surrogate (placeholder) for another object to control access to it.
 
 ## Resources
 
