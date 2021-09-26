@@ -27,6 +27,9 @@
 
 * [Proxy pattern](https://github.com/Taving40/Python_Design_Patterns/tree/main/Proxy_pattern): This pattern provides a surrogate (placeholder) for another object to control access to it.
 
+* [Bridge pattern](https://github.com/Taving40/Python_Design_Patterns/tree/main/Bridge_pattern): This pattern decouples an abstraction from its implementation so that the two can vary independently.
+
+
 ## Resources
 
 Example ideas taken from Head First: Design Patterns and Christopher Okhravi's youtube series: [Design Patterns](https://www.youtube.com/playlist?list=PLrhzvIcii6GNjpARdnO4ueTUAVR9eMBpc)

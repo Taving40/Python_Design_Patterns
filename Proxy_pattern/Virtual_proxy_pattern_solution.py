@@ -3,8 +3,6 @@ from abc import ABC #abstract base class (deriving from this results in an abstr
 from abc import abstractmethod
 from time import sleep
 
-
-
 class IBookParser(ABC):
     @abstractmethod
     def parse(self):
