@@ -19,15 +19,17 @@
 
 * [Singleton pattern](https://github.com/Taving40/Python_Design_Patterns/tree/main/Singleton_pattern): This pattern ensures a class has **only one instace** and provides a global point of access to it. ([critique](https://www.youtube.com/watch?v=-FRm3VPhseI), as I understand it: you should avoid globals and if your app is growing, you might wish to have multiple instances of what you initially thought would only ever be a single thing)
 
-* [Command pattern](https://github.com/Taving40/Python_Design_Patterns/tree/main/Command_pattern): This pattern encapsulates a request as an object thereby letting you parameterize other objects with different requests and support undoable operations.
+* [Command pattern](https://github.com/Taving40/Python_Design_Patterns/tree/main/Command_pattern): This pattern **encapsulates a request** as an object thereby letting you parameterize other objects with different requests and support undoable operations.
 
-* [Adapter pattern](https://github.com/Taving40/Python_Design_Patterns/tree/main/Adapter_pattern): This pattern converts the interface of a class into another interface that clients expect. Adapter let's classes work together that couldn't otherwise because of incompatible interfaces.
+* [Adapter pattern](https://github.com/Taving40/Python_Design_Patterns/tree/main/Adapter_pattern): This pattern converts the interface of a class into another interface that clients expect. Adapter **lets classes work together** that couldn't otherwise because of incompatible interfaces.
 
-* [Facade pattern](https://github.com/Taving40/Python_Design_Patterns/tree/main/Facade_pattern): This pattern provides a unified interface to a set of interfaces in a subsystem. Facade defines a higher level interface that makes the subsystem easier to use.
+* [Facade pattern](https://github.com/Taving40/Python_Design_Patterns/tree/main/Facade_pattern): This pattern provides a unified interface to a set of interfaces in a subsystem. Facade defines a higher level interface that **makes the subsystem easier to use**.
 
-* [Proxy pattern](https://github.com/Taving40/Python_Design_Patterns/tree/main/Proxy_pattern): This pattern provides a surrogate (placeholder) for another object to control access to it.
+* [Proxy pattern](https://github.com/Taving40/Python_Design_Patterns/tree/main/Proxy_pattern): This pattern provides a surrogate (placeholder) for another object to **control access** to it.
 
-* [Bridge pattern](https://github.com/Taving40/Python_Design_Patterns/tree/main/Bridge_pattern): This pattern decouples an abstraction from its implementation so that the two can vary independently.
+* [Bridge pattern](https://github.com/Taving40/Python_Design_Patterns/tree/main/Bridge_pattern): This pattern **decouples** an **abstraction** from its **implementation** so that the two can vary independently.
+
+* [Template Method pattern](https://github.com/Taving40/Python_Design_Patterns/tree/main/Template_Method_pattern): This pattern defines the **skeleton** of an algorithm, **differing some steps** to sublcasses. Tempalte method lets sublclasses redefine certains teps of an algorithm without changing the algorithm structure.
 
 
 ## Resources
