@@ -8,6 +8,8 @@ data becomes trivial using Composite pattern.
 This hierarchy models a to-do list manager."""
 
 class TodoList(ABC):
+    """Interface for both composite and unitary objects that make up the desired tree structure.
+    Through polymorphism, we can apply computation to those objects, without caring about their type."""
     @abstractmethod
     def check(self):
         pass
@@ -15,8 +17,13 @@ class TodoList(ABC):
     @abstractmethod
     def uncheck(self):
         pass
+    """There is a discussion to be had about potentially adding "Add" and "Remove" methods to TodoList
+    One point against this would be that Todo objects would end up depending on methods that they have no business
+    using in any context. Adding the Add and Remove methods to Project instead would screw up the whole concept of this pattern.
+    A recommended solution is to make the hierarchy immutable."""
 
 class Todo(TodoList):
+    """Base object that is not a Composite"""
     def __init__(self):
         self.checked = False
 
@@ -27,6 +34,7 @@ class Todo(TodoList):
         self.checked = False
 
 class Project(TodoList):
+    """Example of a Composite object"""
     def __init__(self, *todo_list):
         self.checked = False
         self.todo_list = todo_list
