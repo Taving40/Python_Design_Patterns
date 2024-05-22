@@ -8,11 +8,11 @@ class AbstractClass(ABC):
     def TemplateMethod(self):
         """We can say structurally what this method should do, but not in detail.
         This is why we let operation1 and operation2 be implemented by a concrete class instead."""
-        '''some logic''' #Should take care since this part, between the varying operations
+        '''some logic'''
         self.operation1()
-        '''some logic''' #Shouldn't really change, meaning that this is somewhat dangerous
+        '''some logic'''
         self.operation2()
-        '''some logic''' #Because it makes assumptions about the future of the codebase
+        '''some logic'''
    
     @abstractmethod
     def operation1(self):
