@@ -2,7 +2,7 @@ from __future__ import annotations
 from abc import ABC, abstractmethod
 
 """ This pattern provides a way to change what varies in a certain algorithm from case to case. 
-The things that are varying should be relating to beavior, not just parameters."""
+The things that are varying should be relating to behavior, not just parameters."""
 
 class AbstractClass(ABC):
     def TemplateMethod(self):
